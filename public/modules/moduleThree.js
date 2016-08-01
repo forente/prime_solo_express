@@ -1,6 +1,6 @@
 
-var account = require('./moduleOne.js');
-var converter = require('./moduleTwo.js');
+var account = require('./moduleOne');
+var converter = require('./moduleTwo');
 
 module.exports.value = converter.convert(account.ammount);
 module.exports.message = function(){
